@@ -1,0 +1,373 @@
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    margin-top: 108px;
+  }
+
+  #bar{ padding-top: 8px;
+        padding-left: 8px;  
+        padding-bottom: 8px;
+        padding-right: 8px;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        text-align: right;                  
+  }
+
+  #bar1{ height: 60px;
+    margin: -8px;
+    padding: 0px;
+    background: #f1f1f1;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-align: right;
+    border: none; 
+}
+
+.p1{
+    margin-top: 17px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#bar2{
+                
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    font-family: arial,sans-serif;
+    margin-left: 10px;
+}
+
+#line{
+     border-bottom: 1px solid #ebebeb;
+}
+
+  a.ft {  padding-top: 0px;
+          padding-left: 15px;  
+          padding-bottom: 0px;
+          padding-right: 0px;
+          color: black;
+  }  
+  a:link{ text-decoration: none;
+  }
+  a:hover {
+          color: gray;
+          text-decoration: underline black;
+
+  }
+  
+  .boxSearch{
+      flex: 1;
+      display: flex;
+      padding: 5px 8px 0 16px;
+      padding-left: 14px;
+
+      background: #fff;
+      border: 1px solid #dfe1e5;
+      box-shadow: none;
+      border-radius: 24px;
+      z-index: 3;
+      height: 44px;
+      margin: 0 auto;
+      width: 482px;
+      width: auto;
+  }
+  
+  .txtBoxSearch {
+      background-color: transparent;
+      border: none;
+      
+      margin: 0;
+      padding: 0;
+      color: rgba(0,0,0,.87);
+      word-wrap: break-word;
+      outline: none;
+      display: flex;
+      flex: 100%;
+      -webkit-tap-highlight-color: transparent;
+      
+      height: 34px;
+
+      font-size: 16px;
+  }
+
+  .txtBoxSearch1 {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+
+.icoPage {
+    display: block;
+    background-image:  url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: 0 -35px;
+    height: 33px;
+    width: 92px;
+    background-size: 528px 68px;
+    color: #9aa0a6;
+}
+
+  .icoSearch {
+      margin-top: 3px;
+      color: #9aa0a6;
+      height: 20px;
+      width: 20px;
+      padding-right: 13px;
+  }
+
+  .icoPosSpa {
+    margin-top: 17px;
+      position: absolute;
+      padding: 0 20px 0 15px;
+      display: block;
+}
+
+      span svg {
+          fill: #3b5998;
+          height: 2em;
+          vertical-align:-0.1875em;
+      }
+  
+     .btnFormat{
+          background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+          background-color: #f2f2f2;
+          border: 1px solid #f2f2f2;
+          border-radius: 4px;
+          color: #5F6368;
+          font-family: arial,sans-serif;
+          font-size: 14px;
+          margin: 11px 4px;
+          padding: 0 16px;
+          line-height: 27px;
+          height: 36px;
+          min-width: 54px;
+          text-align: center;
+          cursor: pointer;
+          user-select: none;
+     }     
+
+     .posSVG {
+         display: flex;
+         align-items: center;
+         padding-right: 13px;
+         margin-bottom: 20px;
+     }
+
+     .FormatForm {
+         position: relative;
+         margin: 0 auto;
+         padding-top: 6px;
+         width: 484px;
+         width: auto;
+         max-width: 484px;
+         
+      
+      }
+      
+      .FormatForm1 {
+        max-width: 1140px;
+        min-width: 200px;
+        width: 96%;
+        margin: 40px 2% 0 45px;
+     }
+
+
+
+      .PosBtn {
+          padding-top: 18px;
+          top: 53px;
+          z-index: 0; 
+          display: flex;
+          height: 70px;
+          justify-content: center;
+      }
+
+      .PosBtn1 {
+        float: right;
+        margin: 10px 0;
+    }
+
+
+      input.btnChange:hover, input.btnChange:active {                                   
+          background-color: #f8f8f8;
+          background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+          border: 1px solid #c6c6c6;
+          box-shadow: 0 1px 1px rgba(0,0,0,.1);
+          color: #222;
+      }
+
+      button.btnChange:hover, input.btnChange:active {                                   
+        background-color: #f8f8f8;
+        background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+        border: 1px solid #c6c6c6;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        color: #222;
+    }
+
+    .logo-subtext {
+        color: #4285f4;
+        font: 16px/16px roboto-regular, arial, sans-serif;
+        position: absolute; 
+        top: 85%;
+        right: 5%; 
+        
+    }
+
+
+    .container {
+        position: relative;
+        width: 50%;
+        max-width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8px;
+        margin-top: 108px;
+    }
+  
+    .BoxFilter{
+        font-family: Arial, sans-serif;
+        width: 100%;
+        clear: both;
+    }
+    
+    .BoxDimension{
+        height: 30px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+
+    .BoxTitle {
+        font-size: 16px;
+        color: #333;
+      
+    }
+
+    .BoxTitleEmpty {
+        display: inline-block;
+        min-width: 167px;
+        min-height: 41px;
+        vertical-align: middle;
+        width: 50%;
+    }
+
+    .BoxDescription{
+        font-size: 13px;
+        font-weight: 700;
+        color: #777;
+    }    
+
+    
+    .BoxDescConf {
+        height: 30px;
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 13px;
+        font-weight: 700;
+        color: #777;
+    }
+
+    .BoxFilterName{
+        display: inline-block;
+        min-width: 182px;
+        width: 16%;
+        height: 42px;
+        color: #222;
+        font-size: 13px;
+        line-height: 16px;
+        vertical-align: middle;
+    }
+
+
+    .FormatBoxTitle {
+        height: 30px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .SpaceLblBox {
+        display: inline-block;
+        min-width: 167px;
+        width: 16%;
+        height: 42px;
+        color: #222;
+        font-size: 13px;
+        line-height: 16px;
+        vertical-align: middle;
+    }
+
+    .BoxMiddleFormat {
+        display: inline-block;
+        min-width: 167px;
+        min-height: 41px;
+        vertical-align: middle;
+        width: 50%;
+    }
+
+    .BoxDescFormat {
+     
+        display: inline-block;
+        min-width: 160px;
+        margin: 0 0 8px 1%;
+        color: #555;
+        font-size: 11px;
+        padding-left: 16px;
+        vertical-align: middle;
+        position: relative;
+    }
+
+    .SpanFormatDesc {
+        color: #666;
+        font-family: monospace;
+        font-size: 11px;
+        white-space: pre;
+    }
+
+
+    .Lvl{
+        clear: both;
+    }
+
+       .btnFormat1{
+                        
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            cursor: default;
+            font-size: 11px;
+            font-weight: bold;
+            text-align: center;
+            white-space: nowrap;
+            margin-right: 0px;
+            height: 27px;
+            line-height: 27px;
+            min-width: 54px;
+            outline: 0;
+            padding: 0 8px;
+            box-shadow: none;
+            background-color: #4d90fe;
+            background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+            border: 1px solid #3079ed;
+            color: #fff;
+       }     
+     
+       input.btnChange1:hover, input.btnChange1:active {        
+        background-color: #4A8DFB;
+        background-image: -webkit-linear-gradient(top,#4d90fe,#4A8DFB);
+        border: 1px solid #2F5BB7;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        color: #fff;
+        
+    }
+
+    @media screen and (max-width:1025px) {
+        #h {display: none;}
+    }
